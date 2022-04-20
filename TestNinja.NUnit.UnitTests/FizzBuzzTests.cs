@@ -7,7 +7,7 @@ namespace TestNinja.NUnit.UnitTests
     public class FizzBuzzTests
     {
         [Test]
-        [TestCase(15, "FizzBuzz")]
+        [TestCase(15, "FizzBuzz", TestName = "InputDivisibleBy3And5_ReturnsFizzBuzz")]
         [TestCase(6, "Fizz")]
         [TestCase(10, "Buzz")]
         [TestCase(4, "4")]
